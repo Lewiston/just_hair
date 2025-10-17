@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from './components/Navbar'
-import Hero from './components/Product';
-import Product from './components/Sidebar';
+import Hero from './components/Hero';
+import Product from './components/Product';
 
 
 function App() {
 return (
 <>
 <Navbar />
-<Hero />
+<Hero/>
 <div style={{ padding: '2rem' }}>
-{/* <Product /> */}
+
 </div>
 </>
 );
