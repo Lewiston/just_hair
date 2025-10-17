@@ -1,0 +1,31 @@
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #fff;
+padding: 1rem 2rem;
+border-bottom: 1px solid #eee;
+}
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+color: #1a1a1a;
+}
+.welcome {
+font-size: 1.2rem;
+color: #333;
+}
+.search-section {
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.search-bar {
+padding: 0.5rem 1rem;
+border: 1px solid #ccc;
+border-radius: 8px;
+}
+.icon {
+cursor: pointer;
+color: #666;
+}
