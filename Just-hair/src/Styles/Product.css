@@ -1,0 +1,17 @@
+.product {
+  padding: 20px 40px;
+  background-color: #f9f9f9;
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}

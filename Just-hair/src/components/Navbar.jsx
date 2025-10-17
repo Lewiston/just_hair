@@ -1,5 +1,6 @@
 import React from 'react';
-import './Navbar.css';
+import "../Styles/Navbar.css";
+
 import { Bell, User } from 'lucide-react';
 
 
