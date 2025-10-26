@@ -1,0 +1,48 @@
+.container{
+    padding: 3em;
+    
+}
+.all{
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    padding: 6rem;
+    border-radius: 20px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    gap: 3em
+}
+
+.button{
+    color: white;
+    background-color: rgb(10, 95, 10);
+    border-radius: 50px;
+    width: 17rem;
+    height: 2.5rem;
+}
+
+#arrow{
+    width: 1rem;
+}
+
+.up{
+    display: flex;
+    flex-direction: column;
+}
+
+.holder{
+    width: 24rem;
+    height: 1.6rem;
+    border-radius: 5px;
+}
