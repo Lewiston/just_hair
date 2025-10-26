@@ -1,0 +1,22 @@
+.history{
+    color: green;
+    background-color: rgb(193, 250, 193);
+    border-radius: 30px;
+}
+
+.contain{
+    padding: 3em;
+}
+
+.everything{
+     background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 36em;
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+.title{
+    color: grey;
+}
