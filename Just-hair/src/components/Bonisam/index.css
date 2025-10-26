@@ -1,0 +1,77 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  min-height: 100vh;
+  margin-top: 3em;
+  padding: 3em;
+}
+.main-container .tabs {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.main-container .tabs * {
+  text-align: center;
+  flex-basis: 50%;
+}
+.auth-container {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  padding: 3em;
+  max-width: 500px;
+  width: 50%;
+  color: black;
+  /* text-align: center; */
+  border-radius: 20px;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.divider span {
+  background-color: #ffffff;
+  padding: 0 10px;
+  color: #666;
+}
+
+.flex {
+  flex-direction: column;
+  display: flex;
+}
+
+.account {
+  color: white;
+  background-color: blue;
+  text-align: center;
+  border-radius: 50px;
+  width: 400px;
+  height: 2em;
+}
+
+.google {
+  text-align: center;
+}
+
+.signin-link {
+  text-align: center;
+}
