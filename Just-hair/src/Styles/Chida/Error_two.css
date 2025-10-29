@@ -1,0 +1,44 @@
+.button_one{
+    color: rgb(233, 61, 61);
+    background-color: rgb(238, 161, 161);
+    border-radius: 6px;
+    height: 2.5rem;
+    width: 5rem;
+}
+
+.button_two{
+    color: white;
+    background-color: rgb(92, 2, 2);
+    border-radius: 6px;
+    height: 2.5rem;
+    width: 5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.glass{
+    min-height: 100vh;
+    min-width: 100vw;
+    background: rgba(0, 0, 0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.exit{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 30%;
+    gap: 2em;
+    background-color: white;
+    padding: 4rem;
+    border-radius: 9px;
+}
+
