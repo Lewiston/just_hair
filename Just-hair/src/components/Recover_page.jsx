@@ -1,13 +1,13 @@
 import React from "react";
-import "../Styles/Sign.css";
+import "../Styles/Recover.css";
 
-const Sectionone = () => {
+const SectionTwo = () => {
   return (
     <>
-      <div className="SignInPage">
+      <div className="RecoverPassword">
         <div className="page_container">
           <div className="text">
-            <h2>forgot password</h2>
+            <h2>Recover Password</h2>
           </div>
 
           <line />
@@ -17,7 +17,7 @@ const Sectionone = () => {
           <input type="text" placeholder="👤 User Name" id="User Name" />
           <br />
 
-          <label htmlFor="Email"> Email</label>
+          <label htmlFor="Recovery Password"> Recovery Password</label>
 
           <input type="text" placeholder="✉️ Email" id="Email" />
 
@@ -33,5 +33,4 @@ const Sectionone = () => {
     </>
   );
 };
-
-export default Sectionone;
+export default SectionTwo;
